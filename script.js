@@ -1,3 +1,9 @@
+const _ = require('lodash');
+
+let arr1 = [1,2,3,4,5,6,7,8];
+let answer = _.without(arr1, 3);
+console.log(answer);
+
 let styleOutput = document.querySelector("h3");
 let color1 = document.getElementById("color1");
 let color2 = document.getElementById("color2");

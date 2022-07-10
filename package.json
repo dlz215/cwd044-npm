@@ -1,0 +1,22 @@
+{
+  "name": "cwd044-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlz215/cwd044-npm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlz215/cwd044-npm/issues"
+  },
+  "homepage": "https://github.com/dlz215/cwd044-npm#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
